@@ -126,7 +126,7 @@ export interface WaitPromise {
 /**
  * OnionAddr holds details about the T0R.onion address for the current hostname
  */
-interface OnionAddr {
+export interface OnionAddr {
   /**
    * domain is the T0R.onion address assigned to the hostname of the current page.
    */
