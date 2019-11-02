@@ -1,8 +1,12 @@
 {
   "name": "@oyato/o-ren",
-  "version": "1.1.5",
-  "description": "pPublic interface for the https://oya.to/o-ren pre-renderer.",
+  "version": "1.1.7",
+  "description": "Public interface for the https://oya.to/o-ren prerenderer.",
+  "files": [
+    "dist/"
+  ],
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
@@ -11,9 +15,6 @@
   "author": "disposaboy",
   "license": "MIT",
   "private": false,
-  "files": [
-    "dist/"
-  ],
   "bugs": {
     "url": "https://oya.to/o-ren/issues"
   },
@@ -22,11 +23,10 @@
     "prepublishOnly": "tsc && rollup --config"
   },
   "devDependencies": {
-    "rollup": "^1.25.0",
+    "rollup": "^1.26.2",
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript": "^1.0.1",
     "tslib": "^1.9.3",
-    "typedoc": "^0.15.0",
     "typescript": "^3.6.4"
   }
 }

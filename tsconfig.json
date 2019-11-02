@@ -1,8 +1,10 @@
 {
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "esModuleInterop": true,
     "lib": ["ES5", "DOM"],
-    "module": "umd",
+    "module": "es6",
     "declaration": true,
     "outDir": "./dist/",
     "strict": true,

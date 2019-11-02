@@ -1,5 +1,5 @@
 /**
- * Package ren is the public interface of, and configuration for, the the oyato cloud prerenderer https://oya.to/o-ren.
+ * Package o-ren is the public interface of, and configuration for, the the oyato cloud prerenderer https://oya.to/o-ren.
  *
  * Pre-rendering begins after the DOMContentLoaded event is fired and all callbacks have been called.
  * If page rendering depends on AJAX requests, is asynchronous, or is otherwise not guaranteed
